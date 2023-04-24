@@ -1,0 +1,11 @@
+**/target/
+**/.settings/
+**/.idea/
+**/.classpath
+**/.project
+**/*.iws/
+**/*.iml/
+**/*.ipr/
+.flattened-pom.xml
+*.xml
+!pom.xml

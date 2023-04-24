@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/order_management_db
+    username: root
+    password: K59785978@m
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  application:
+    name: order-management
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+#  liquibase:
+#    enabled: false
+#    drop-first: false
+#    change-log: src/main/java/liquibase/changelog.xml
+#    default-schema: public
+
+server:
+  servlet:
+    context-path: /order-management
+  port: 8090
+
+#springdoc:
+#  swagger-ui:
+#    disable-swagger-default-url: true
+#    operationSorter: method
+#    tagSorter: alpha
+
