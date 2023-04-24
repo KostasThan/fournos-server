@@ -13,13 +13,6 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.solutions.digital.mixas.order-management</groupId>
-            <artifactId>order-management-api</artifactId>
-            <version>${revision}</version>
-        </dependency>
-
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -33,11 +26,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -68,6 +56,11 @@
             <version>${revision}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.solutions.digital.mixas.order-management</groupId>
+            <artifactId>order-management-api</artifactId>
+            <version>${revision}</version>
+        </dependency>
 
     </dependencies>
 </project>

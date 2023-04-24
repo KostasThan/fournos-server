@@ -3,7 +3,7 @@ package com.solutions.digital.mixas.ordermanagement;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"com.solutions.digital.mixas.ordermanagement"})
+@SpringBootApplication()
 public class OrderManagementApplication {
 
     public static void main(String[] args) {
