@@ -119,45 +119,12 @@
             </dependency>
 
             <dependency>
-                <groupId>org.kie</groupId>
-                <artifactId>kie-server-spring-boot-starter</artifactId>
-                <version>${kie-server.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.kie.server</groupId>
-                <artifactId>kie-server-client</artifactId>
-                <version>${kie-server.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>${hibernate-validator.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>co.elastic.apm</groupId>
-                <artifactId>apm-agent-api</artifactId>
-                <version>${apm-agent.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>co.elastic.apm</groupId>
-                <artifactId>apm-agent-attach</artifactId>
-                <version>${apm-agent.version}</version>
-            </dependency>
 
-            <dependency>
-                <groupId>co.elastic.apm</groupId>
-                <artifactId>apm-opentracing</artifactId>
-                <version>${apm-agent.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.opentracing.contrib</groupId>
-                <artifactId>opentracing-spring-cloud-starter</artifactId>
-                <version>${opentracing-spring-cloud.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -166,11 +133,6 @@
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.networknt</groupId>
-                <artifactId>json-schema-validator</artifactId>
-                <version>${json-schema-validator.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>com.jayway.jsonpath</groupId>
@@ -189,29 +151,10 @@
                 <artifactId>javers-core</artifactId>
                 <version>${javers.version}</version>
             </dependency>
-
-            <dependency>
-                <groupId>org.cyclonedx</groupId>
-                <artifactId>cyclonedx-maven-plugin</artifactId>
-                <version>${cyclonedx.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>${javax-servlet.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.github.springwolf</groupId>
-                <artifactId>springwolf-kafka</artifactId>
-                <version>${springwolf-kafka.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.github.springwolf</groupId>
-                <artifactId>springwolf-ui</artifactId>
-                <version>${springwolf-ui.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.ws.rs</groupId>
