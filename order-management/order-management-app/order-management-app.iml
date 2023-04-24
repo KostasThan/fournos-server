@@ -38,7 +38,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="order-management-adapter" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.order-management:order-management-adapter:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.5" level="project" />
@@ -96,10 +96,10 @@
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.28" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.11.4" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" level="project" />
-    <orderEntry type="module" module-name="order-management-core" />
-    <orderEntry type="module" module-name="specification-utils" />
-    <orderEntry type="module" module-name="exceptions" />
-    <orderEntry type="module" module-name="order-management-api" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.order-management:order-management-core:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas:specification-utils:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.shared:exceptions:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.order-management:order-management-api:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.6" level="project" />

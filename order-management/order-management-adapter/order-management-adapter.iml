@@ -38,7 +38,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="order-management-api" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.order-management:order-management-api:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: io.swagger.core.v3:swagger-annotations:2.1.2" level="project" />
@@ -140,9 +140,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" level="project" />
-    <orderEntry type="module" module-name="order-management-core" />
-    <orderEntry type="module" module-name="specification-utils" />
-    <orderEntry type="module" module-name="exceptions" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.order-management:order-management-core:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas:specification-utils:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.solutions.digital.mixas.shared:exceptions:0.0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
   </component>
 </module>

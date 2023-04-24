@@ -4,8 +4,10 @@
 **/.classpath
 **/.project
 **/*.iws/
-**/*.iml/
+**/*iml/
 **/*.ipr/
 .flattened-pom.xml
 *.xml
 !pom.xml
+*.iml
+/order-management/*iml
